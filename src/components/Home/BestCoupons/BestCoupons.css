@@ -1,0 +1,12 @@
+.bestCouponHeading{
+    text-align: center; 
+    font-weight: bold;
+}
+.btn-block {
+    display: block;
+    
+    width: 100%;
+}
+.showCoupon{
+    color: white;
+}

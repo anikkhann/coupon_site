@@ -1,23 +1,22 @@
 import logo from './logo.svg';
 import './App.css';
-
+import Navbar from './components/Home/Navbar/Navbar';
+import Slider from './components/Home/Slider/Slider'
+import SelectCoupon from './components/Home/SelectCoupon/SelectCoupon';
+import BestDeals from './components/Home/BestDeals/BestDeals';
+import BestCoupons from './components/Home/BestCoupons/BestCoupons';
+import GetInTouch from './components/Home/GetInTouch/GetInTouch';
+import Footer from './components/Home/Footer/Footer';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Navbar></Navbar>
+      <Slider></Slider>
+      <SelectCoupon></SelectCoupon>
+      <BestDeals></BestDeals>
+      <BestCoupons></BestCoupons>
+      <GetInTouch></GetInTouch>
+      <Footer></Footer>
     </div>
   );
 }

@@ -7,6 +7,7 @@ import BestDeals from './components/Home/BestDeals/BestDeals';
 import BestCoupons from './components/Home/BestCoupons/BestCoupons';
 import GetInTouch from './components/Home/GetInTouch/GetInTouch';
 import Footer from './components/Home/Footer/Footer';
+import FloatingSocialBar from './components/Home/FloatingSocialBar/FloatingSocialBar';
 function App() {
   return (
     <div>
@@ -14,6 +15,7 @@ function App() {
       <Slider></Slider>
       <SelectCoupon></SelectCoupon>
       <BestDeals></BestDeals>
+      <FloatingSocialBar></FloatingSocialBar>
       <BestCoupons></BestCoupons>
       <GetInTouch></GetInTouch>
       <Footer></Footer>

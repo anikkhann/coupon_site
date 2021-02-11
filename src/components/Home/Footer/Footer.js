@@ -204,6 +204,12 @@ const Footer = () => {
         
         </div>
         </div>
+        <div className="footer-copyright text-center py-3">
+            © 2020 Copyright:
+            <a href="" style={{textDecoration: "none"}}> 
+                CouponSit.com
+            </a>
+        </div>
            </footer>
            
         </div>
@@ -211,3 +217,4 @@ const Footer = () => {
 };
 
 export default Footer;
+

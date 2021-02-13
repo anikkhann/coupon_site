@@ -1,0 +1,37 @@
+/* .single__shop{
+    border: 1px solid gainsboro;
+    height: 100px;
+    width: 262px;
+    display: inline-block;
+} */
+
+/* .carousel {
+    width: 56vw !important;
+    height: 30vh !important;
+  } */
+
+  .allShop__card .row {
+    height: 330px;
+    overflow-x: auto;
+    /* flex-wrap: nowrap; */
+  }
+
+  .single__shop {
+    border: 1px solid gainsboro;
+    height: 100px;
+    width: 262px;
+    display: inline-block;
+  }
+  .single__shop:hover {
+    box-shadow: -1px -1px 10px 5px rgba(0, 0, 0, 0.2);
+  }
+  .single__shop a:hover {
+    text-decoration: none;
+  }
+
+  .single__shop__details {
+    border-left: 1px solid gainsboro;
+    width: 150px;
+    height: 100px;
+    color: black;
+  }

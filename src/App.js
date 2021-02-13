@@ -8,12 +8,16 @@ import BestCoupons from './components/Home/BestCoupons/BestCoupons';
 import GetInTouch from './components/Home/GetInTouch/GetInTouch';
 import Footer from './components/Home/Footer/Footer';
 import FloatingSocialBar from './components/Home/FloatingSocialBar/FloatingSocialBar';
+import MostPopularStores from './components/Home/MostPopularStores/MostPopularStores';
+import MostPopularStores2 from './components/Home/MostPopularStores2/MostPopularStores2';
 function App() {
   return (
     <div>
       <Navbar></Navbar>
       <Slider></Slider>
       <SelectCoupon></SelectCoupon>
+      {/* <MostPopularStores></MostPopularStores> */}
+      <MostPopularStores2></MostPopularStores2>
       <BestDeals></BestDeals>
       <FloatingSocialBar></FloatingSocialBar>
       <BestCoupons></BestCoupons>

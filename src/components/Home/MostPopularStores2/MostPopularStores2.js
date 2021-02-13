@@ -124,9 +124,9 @@ const MostPopularStores2 = () => {
                     boxShadow: "0 0 5px black",
                     borderRadius: "50%",
                     
-                    // position: "absolute",
-                    // top:"950px",
-                    // left: "380px",
+                    position: "absolute",
+                    top:"950px",
+                    left: "380px",
                   }}
                   icon={faChevronCircleLeft}
                 />
@@ -144,9 +144,9 @@ const MostPopularStores2 = () => {
                     backgroundColor: "black",
                     boxShadow: "0 0 5px black",
                     borderRadius: "50%",
-                    // position: "absolute",
-                    // top:"950px",
-                    // left: "380px",
+                    position: "absolute",
+                    top:"950px",
+                    left: "380px",
                  
                   }}
                   icon={faChevronCircleRight}
